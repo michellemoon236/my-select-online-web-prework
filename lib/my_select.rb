@@ -3,7 +3,7 @@ i = 0
 new_collection = []
 while i < collection.length 
    if collection[i] % 2 == 0
-      new_collection << yield(collection[i])
+      new_collection << (collection[i])
       i +=1 
    else
       puts collection[i]
